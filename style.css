@@ -357,12 +357,15 @@ img {
 }
 
 .conputer-title {
+  padding-left: 200px;
+  padding-right: 200px;
   color: #fff;
   text-align: center;
   font-size: 48px;
   line-height: 1.4;
 }
 .computer-list {
+  text-decoration: none;
   display: flex;
   justify-content: space-around;
   margin-top: 120px;
@@ -390,4 +393,9 @@ img {
   font-size: 16px;
   line-height: 1.6;
   color: rgb(170, 169, 169);
+  text-align: center;
+}
+.subtitle--padding {
+  padding-left: 0;
+  padding-right: 0;
 }
